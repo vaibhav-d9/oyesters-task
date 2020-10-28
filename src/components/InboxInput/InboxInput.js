@@ -2,9 +2,6 @@ import React from "react";
 
 import "./InboxInput.scss";
 import AddIcon from "@material-ui/icons/Add";
-import InsertDriveFileOutlinedIcon from "@material-ui/icons/InsertDriveFileOutlined";
-import ImageOutlinedIcon from "@material-ui/icons/ImageOutlined";
-import TheatersOutlinedIcon from "@material-ui/icons/TheatersOutlined";
 import MoodOutlinedIcon from "@material-ui/icons/MoodOutlined";
 import SendOutlinedIcon from "@material-ui/icons/SendOutlined";
 

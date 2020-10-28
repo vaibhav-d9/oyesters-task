@@ -5,6 +5,7 @@
   background-color: white;
   border-radius: 3px;
   padding: 30px 15px;
+  box-shadow: -1px 12px 30px -15px rgba(39, 39, 39, 0.15);
 
   .messageBox_header {
     display: flex;
@@ -138,6 +139,7 @@
     rgba(124, 184, 247, 1) 0%,
     rgba(42, 139, 242, 1) 100%
   );
+  box-shadow: -1px 12px 30px -15px rgba(39, 39, 39, 0.15);
 
   .activity {
     small {
