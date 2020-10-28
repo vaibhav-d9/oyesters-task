@@ -1,7 +1,16 @@
 .chats {
   margin-top: 60px;
   padding-left: 50px;
-  flex: 0.35;
+  flex: 0.4;
+  height: calc(100vh - 60px);
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 
   .chats_top {
     display: flex;

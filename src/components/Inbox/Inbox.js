@@ -70,6 +70,7 @@ function Inbox() {
           me={true}
           notRead={true}
           days="3"
+          myAttachment={true}
         />
       </div>
 

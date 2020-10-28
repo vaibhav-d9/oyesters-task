@@ -94,4 +94,16 @@
     position: absolute;
     right: 50px;
   }
+
+  .myAttachment {
+    color: #2a8bf2;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    justify-content: flex-end;
+
+    .MuiSvgIcon-root {
+      color: #2a8bf2;
+    }
+  }
 }

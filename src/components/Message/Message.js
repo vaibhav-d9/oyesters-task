@@ -17,6 +17,7 @@ function Message({
   read,
   notRead,
   days,
+  myAttachment,
 }) {
   return (
     <div className={me ? "myMessage" : "message"}>
@@ -38,6 +39,12 @@ function Message({
                   <p>{attachmentName}</p>
                   <p className="attachmentSize">{attachmentSize}</p>
                 </div>
+              )}
+
+              {myAttachment && (
+                <p className="myAttachment">
+                  (52.05 Mb) NEW_Style.zip <InsertDriveFileOutlinedIcon />{" "}
+                </p>
               )}
             </p>
             <MoreHorizIcon />
