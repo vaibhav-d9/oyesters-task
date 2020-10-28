@@ -1,0 +1,37 @@
+.sidebar {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 0.16;
+  padding-top: 60px;
+
+  .MuiSvgIcon-root {
+    cursor: pointer;
+  }
+
+  .sidebar_nav {
+    flex: 1;
+    margin-top: 60px;
+  }
+  .user_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .user_name {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+
+      b {
+        font-size: 15px;
+      }
+    }
+
+    .avatar {
+      width: 76px;
+      height: 76px;
+    }
+  }
+}

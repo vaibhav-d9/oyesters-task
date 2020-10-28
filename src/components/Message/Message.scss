@@ -1,0 +1,97 @@
+.message {
+  display: flex;
+
+  .avatar {
+    width: 32px;
+    height: 32px;
+  }
+  .message_right {
+    margin-left: 10px;
+
+    .message_text {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+
+      .text,
+      .attachment {
+        max-width: 70%;
+        font-size: 14px;
+        background: rgb(85, 0, 222);
+        background: linear-gradient(
+          97deg,
+          rgba(85, 0, 222, 1) 0%,
+          rgba(96, 169, 246, 1) 0%,
+          rgba(42, 139, 242, 1) 100%
+        );
+        color: white;
+        padding: 10px;
+        line-height: 22px;
+        border-radius: 0px 7px 7px 7px;
+        display: flex;
+        align-items: center;
+
+        .attachmentSize {
+          color: rgb(224, 224, 224);
+          font-size: 12px;
+        }
+        .fileIcon {
+          margin: 0 10px;
+          color: white;
+        }
+        .attachment_info {
+          padding-right: 20px;
+        }
+      }
+
+      .MuiSvgIcon-root {
+        color: #707c97;
+        margin-left: 20px;
+      }
+    }
+  }
+  .timestamp {
+    color: #707c97;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+.myMessage {
+  position: relative;
+
+  .message_text {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+    .text,
+    .attachment {
+      max-width: 70%;
+      font-size: 14px;
+      color: #707c97;
+      padding: 10px;
+      line-height: 22px;
+      border-radius: 7px 7px 0px 7px;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      border: 1px solid #cccccca6;
+    }
+
+    .MuiSvgIcon-root {
+      color: #707c97;
+      margin-right: 20px;
+    }
+
+    .read_icon {
+      font-size: 16px;
+    }
+  }
+  .timestamp {
+    color: #707c97;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    right: 50px;
+  }
+}

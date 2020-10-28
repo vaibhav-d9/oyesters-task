@@ -1,0 +1,70 @@
+.messageBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 3px;
+  padding: 30px 15px;
+
+  .messageBox_header {
+    display: flex;
+    justify-content: space-between;
+
+    .header_user {
+      display: flex;
+
+      .user_info {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+
+        small {
+          color: #2a8bf2;
+          font-weight: 500;
+          margin-top: 3px;
+          font-size: 12px;
+        }
+
+        b {
+          font-size: 15px;
+        }
+      }
+    }
+    .timestamp {
+      small {
+        color: #707c97;
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .messageBox_body {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+    .content {
+      p {
+        font-size: 14px;
+        color: #707c97;
+        font-weight: 500;
+        padding-right: 30px;
+      }
+    }
+
+    .number {
+      background-color: #ff3366;
+      border-radius: 50%;
+      padding: 5px;
+      display: grid;
+      place-items: center;
+
+      p {
+        font-size: 12px;
+        color: white;
+        font-weight: 500;
+      }
+    }
+  }
+}

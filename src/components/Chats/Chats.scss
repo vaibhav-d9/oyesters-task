@@ -1,0 +1,51 @@
+.chats {
+  margin-top: 60px;
+  padding-left: 50px;
+  flex: 0.35;
+
+  .chats_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .chatsTop_left {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      font-weight: 600;
+    }
+
+    .recent_chats {
+      display: flex;
+      align-items: center;
+      color: #707c97;
+      font-weight: 500;
+      margin-top: 5px;
+
+      .MuiSvgIcon-root {
+        font-size: 18px;
+        margin-left: 5px;
+      }
+    }
+  }
+  .chat_create {
+    button {
+      display: flex;
+      align-items: center;
+      border: none;
+      background: rgb(85, 0, 222);
+      background: linear-gradient(
+        90deg,
+        rgba(85, 0, 222, 1) 0%,
+        rgba(124, 184, 247, 1) 0%,
+        rgba(42, 139, 242, 1) 100%
+      );
+      color: white;
+      font-weight: 500;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}

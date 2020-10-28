@@ -1,0 +1,42 @@
+.chatsSearch {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+  color: #707c97;
+  -webkit-box-shadow: -7px 0px 76px -10px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: -7px 0px 76px -10px rgba(0, 0, 0, 0.14);
+  box-shadow: -7px 0px 76px -10px rgba(0, 0, 0, 0.14);
+
+  .MuiSvgIcon-root {
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .chatsSearch_left {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+
+    input {
+      border: none;
+      background: transparent;
+      outline: none;
+      margin-left: 5px;
+      font-weight: 500;
+    }
+  }
+
+  .chatsSearch_right {
+    display: flex;
+    align-items: center;
+    border-left: 2px solid rgba(221, 221, 221, 0.459);
+    padding: 0 10px;
+
+    small {
+      font-weight: 500;
+    }
+  }
+}

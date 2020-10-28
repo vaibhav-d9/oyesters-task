@@ -1,0 +1,40 @@
+.inboxInput {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid #dadada;
+  padding-top: 10px;
+
+  .inboxInput_left {
+    display: flex;
+    align-items: center;
+
+    input {
+      border: none;
+      outline: none;
+      background: transparent;
+      flex: 1;
+      margin-left: 10px;
+    }
+  }
+
+  .inboxInput_right {
+    display: flex;
+    align-items: center;
+  }
+
+  .inboxInput_icon {
+    background: rgb(85, 0, 222);
+    background: linear-gradient(
+      97deg,
+      rgba(85, 0, 222, 1) 0%,
+      rgba(96, 169, 246, 1) 0%,
+      rgba(42, 139, 242, 1) 100%
+    );
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    color: white;
+  }
+}

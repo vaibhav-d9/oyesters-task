@@ -1,0 +1,23 @@
+.sidebarNav {
+  display: flex;
+  align-items: center;
+  color: #707c97;
+  margin-bottom: 30px;
+  cursor: pointer;
+  padding-left: 20px;
+
+  p {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 12px;
+  }
+  .MuiSvgIcon-root {
+    font-size: 22px;
+  }
+}
+
+.active {
+  color: #2a8bf2;
+  border-left: 4px solid #2a8bf2;
+  border-radius: 2px;
+}
